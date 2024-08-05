@@ -3,7 +3,9 @@
 
 
 
-### Natural language instructions into code Planning
+
+## Prompt Planning
+### Pythonic code Prompt Planning (Few shot)
 <span style="color: blue;"> Code as Policies: Language Model Programs for Embodied Control (IEEE, 2023)<span>
 
 **Main point:**<br>
@@ -29,7 +31,8 @@ Combining control flows, LMP composition, and hierarchical function generation.
 1. The policy code and API parameters can be adapted to new natural language instructions;<br>
 2. Can generalize to new objects and environments by bootstrapping off of open-vocabulary perception systems and/or saliency models.<br>
 3. Don't need any additional data collection or model training.<br>
-4. supporting instructions with non-English languages or emojis.
+4. supporting instructions with non-English languages or emojis.<br>
+5. The generated code strategy is directly compilable and executable
 
 **Cons:**<br>
 
