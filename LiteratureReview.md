@@ -5,7 +5,7 @@
 
 
 ## Prompt Planning
-### Pythonic code Prompt Planning (Few shot)
+### Pythonic programmatic Prompt Planning (Few shot)
 <span style="color: blue;"> Code as Policies: Language Model Programs for Embodied Control (IEEE, 2023)<span>
 
 **Main point:**<br>
