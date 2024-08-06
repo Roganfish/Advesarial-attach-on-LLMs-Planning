@@ -42,3 +42,23 @@ Combining control flows, LMP composition, and hierarchical function generation.
 4. Cannot perform 3D construction tasks.<br>
 5. Assuming all instructions are feasible.<br>
 
+<span style="color: blue;"> PROGPROMPT: Generating Situated Robot Task Plans using Large Language Models (IEEE, 2023)<span>
+
+**Main point:**<br>
+The paper proposed a prompting approach and assertion environment feedback mechanism that combines natural language descriptions and program forms on LLMs, which allows robots to generate sequences of operations that can be directly executed without extensive training.
+
+
+**Methods:**<br>
+PROGPROMPT makes use of programming language constructs combined with a few-shot with natural language annotations to enumerate all the objects in the environment and all the actions that the robot can perform to prompt for a sequence of operations that can be directly executed in code form, and it also incorporates a closed-loop assertion check to get feedback on the environment and perform The closed-loop assertion check is also included to get feedback from the environment and to recover from the operation.<br>
+
+<img src="image-4.png" alt="alt text" width="800"/>
+
+
+**Pros:**<br>
+1. The precondition checking helps recover from some failure modes.<br>
+2. ProgPrompt enables LLMs to intelligently combine the robot capabilities with the environment and their own reasoning ability to generate an executable and valid task plan.<br>
+
+**Cons:**<br>
+1. All objects and actions need to be defined in advance.<br>
+2. API-based access to these recent LLMs only allows textual queries.<br>
+3. Plan generation does not take into account the low-level continuity of the actual environment state, but only plans and precondition checks based on the semantic state.<br>
