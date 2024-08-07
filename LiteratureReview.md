@@ -57,7 +57,7 @@ PROGPROMPT makes use of programming language constructs combined with a few-shot
 #### CoT Prompt
 <span style="color: blue;"> ([Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](https://www.researchgate.net/profile/Quoc-Le-7/publication/360804483_Least-to-Most_Prompting_Enables_Complex_Reasoning_in_Large_Language_Models/links/659ae6cd3c472d2e8ebd5e79/Least-to-Most-Prompting-Enables-Complex-Reasoning-in-Large-Language-Models.pdf)) (ICLR 2023)<span>
 
-#### Feedback from embody env
+#### Feedback from Embody env
 <span style="color: blue;">  ([Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/pdf/2207.05608)) (Advances in Neural Information Processing Systems 35 (NeurIPS 2022))<span>
 
 ### Zero Shot
