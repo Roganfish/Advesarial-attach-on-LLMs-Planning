@@ -5,8 +5,9 @@
 
 
 ## Prompt Planning
-### Pythonic programmatic Prompt Planning (Few shot)
-<span style="color: blue;"> Code as Policies: Language Model Programs for Embodied Control (IEEE, 2023)<span>
+### Few Shot
+#### Pythonic programmatic Prompt
+<span style="color: blue;"> ([Code as Policies: Language Model Programs for Embodied Control](https://arxiv.org/pdf/2209.07753)) (IEEE, 2023)<span>
 
 **Main point:**<br>
 This paper describes the use of LLMs to transform natural language into policy code that the system can compile and run directly. Secondly, it improves the reasoning ability and accuracy of the code generation model by proposing a method to hierarchically generate functions. Thirdly, a benchmark for evaluating language models in the context of robotic code generation is provided.Fourthly, it is shown that CaP improves metrics of generalisation, following the law that larger models perform better.
@@ -15,15 +16,6 @@ This paper describes the use of LLMs to transform natural language into policy c
 LMPs are few-shot prompted with examples to generate different subprograms that may process object detection results, build trajectories, or sequence control primitives. LMPs can be generated hierarchically by composing known functions (e.g., get_obj_names() using perception modules) or invoking other LMPs to define undefined functions.
 
 Combining control flows, LMP composition, and hierarchical function generation.
-
-1. ![alt text](image.png) <br>
-
-
-2. ![alt text](image-1.png)<br>
-
-
-3. ![alt text](image-2.png)
-![alt text](image-3.png)<br>
 
 
 **Pros:**<br>
@@ -42,7 +34,7 @@ Combining control flows, LMP composition, and hierarchical function generation.
 4. Cannot perform 3D construction tasks.<br>
 5. Assuming all instructions are feasible.<br>
 
-<span style="color: blue;"> PROGPROMPT: Generating Situated Robot Task Plans using Large Language Models (IEEE, 2023)<span>
+<span style="color: blue;"> ([PROGPROMPT: Generating Situated Robot Task Plans using Large Language Models](https://arxiv.org/pdf/2209.11302)) (IEEE, 2023)<span>
 
 **Main point:**<br>
 The paper proposed a prompting approach and assertion environment feedback mechanism that combines natural language descriptions and program forms on LLMs, which allows robots to generate sequences of operations that can be directly executed without extensive training.
@@ -62,3 +54,11 @@ PROGPROMPT makes use of programming language constructs combined with a few-shot
 1. All objects and actions need to be defined in advance.<br>
 2. API-based access to these recent LLMs only allows textual queries.<br>
 3. Plan generation does not take into account the low-level continuity of the actual environment state, but only plans and precondition checks based on the semantic state.<br>
+#### CoT Prompt
+<span style="color: blue;"> ([Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](https://www.researchgate.net/profile/Quoc-Le-7/publication/360804483_Least-to-Most_Prompting_Enables_Complex_Reasoning_in_Large_Language_Models/links/659ae6cd3c472d2e8ebd5e79/Least-to-Most-Prompting-Enables-Complex-Reasoning-in-Large-Language-Models.pdf)) (ICLR 2023)<span>
+
+#### Feedback from embody env
+<span style="color: blue;">  ([Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/pdf/2207.05608)) (Advances in Neural Information Processing Systems 35 (NeurIPS 2022))<span>
+
+### Zero Shot
+<span style="color: blue;">  ([Large Language Models are Zero-Shot Reasoners](https://proceedings.neurips.cc/paper_files/paper/2022/file/8bb0d291acd4acf06ef112099c16f326-Paper-Conference.pdf)) (Advances in Neural Information Processing Systems 35 (NeurIPS 2022))<span>
