@@ -54,11 +54,17 @@ PROGPROMPT makes use of programming language constructs combined with a few-shot
 1. All objects and actions need to be defined in advance.<br>
 2. API-based access to these recent LLMs only allows textual queries.<br>
 3. Plan generation does not take into account the low-level continuity of the actual environment state, but only plans and precondition checks based on the semantic state.<br>
-#### CoT Prompt
+
+
+#### Plan-Level feedback
+<span style="color: blue;">  ([Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/pdf/2207.05608)) (Advances in Neural Information Processing Systems 35 (NeurIPS 2022))<span>
+
 <span style="color: blue;"> ([Least-to-Most Prompting Enables Complex Reasoning in Large Language Models](https://www.researchgate.net/profile/Quoc-Le-7/publication/360804483_Least-to-Most_Prompting_Enables_Complex_Reasoning_in_Large_Language_Models/links/659ae6cd3c472d2e8ebd5e79/Least-to-Most-Prompting-Enables-Complex-Reasoning-in-Large-Language-Models.pdf)) (ICLR 2023)<span>
 
-#### Feedback from Embody env
-<span style="color: blue;">  ([Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/pdf/2207.05608)) (Advances in Neural Information Processing Systems 35 (NeurIPS 2022))<span>
+<span style="color: blue;">  ([Position: LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks](https://arxiv.org/pdf/2402.01817)) (2024)<span>
+
+#### Execution-level feedback
+<span style="color: blue;">  ([DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment](https://arxiv.org/pdf/2307.00329)) (2023)<span>
 
 ### Zero Shot
 <span style="color: blue;">  ([Large Language Models are Zero-Shot Reasoners](https://proceedings.neurips.cc/paper_files/paper/2022/file/8bb0d291acd4acf06ef112099c16f326-Paper-Conference.pdf)) (Advances in Neural Information Processing Systems 35 (NeurIPS 2022))<span>
